@@ -17,7 +17,7 @@ class Team
     win.to_f/ (win.to_f+ lose.to_f)
   end
   def show_team_result
- puts "#{self.name}の2020年の成績は#{self.win}勝 #{self.lose}敗　#{self.draw}分、勝率は#{self.calc_win_rate}です。"
+ puts "#{self.name} の2020年の成績は #{self.win}勝 #{self.lose}敗　#{self.draw}分、勝率は#{self.calc_win_rate}です。"
   end
 end
 # インスタンスの生成と、変数への代入
